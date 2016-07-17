@@ -3,6 +3,7 @@ import Home from './components/main/home.vue';
 import Tour from './components/main/tour.vue';
 import Edit from './components/main/edit.vue';
 import Login from './components/auth/login.vue';
+import Advertise from './components/main/advertise.vue';
 import ls from './services/ls';
 import Session from './services/session';
 
@@ -37,6 +38,12 @@ export default function(router) {
       name: 'login',
       auth: false,
       component: Login
+    },
+
+    '/advertise': {
+      name: 'advertise',
+      auth: false,
+      component: Advertise
     },
   });
 
