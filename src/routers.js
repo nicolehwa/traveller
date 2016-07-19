@@ -2,6 +2,7 @@
 import Home from './components/main/home.vue';
 import Tour from './components/main/tour.vue';
 import Edit from './components/main/edit.vue';
+import Explore from './components/main/explore.vue';
 import Login from './components/auth/login.vue';
 import Advertise from './components/main/advertise.vue';
 import ls from './services/ls';
@@ -45,11 +46,17 @@ export default function(router) {
       auth: false,
       component: Advertise
     },
+
+    '/explore': {
+      name: 'explore',
+      auth: false,
+      component: Explore
+    },
   });
 
   router.beforeEach(function (transition) {
     if (transition.to.auth && !Session.username) {
-      transition.redirect('/login')
+      transition.redirect('/advertise')
     } else {
       document.getElementsByClassName('navbar-header').scrollTop;
       transition.next()

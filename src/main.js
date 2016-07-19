@@ -16,6 +16,7 @@ Vue.use(VueResource);
 Vue.use(VueRouter);
 Vue.use(VueChartist);
 
+Vue.http.options.root = 'http://localhost:4567';
 var router = new VueRouter();
 
 registerRouters(router);

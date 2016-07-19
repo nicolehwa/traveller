@@ -24,7 +24,7 @@
                     <span class="icon-bar bar2"></span>
                     <span class="icon-bar bar3"></span>
                 </button>
-                <a href="http://www.creative-tim.com" class="navbar-brand">
+                <a href="#" class="navbar-brand">
                     Traveller | Wanderlust
                 </a>
             </div>
@@ -44,7 +44,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#" class="btn btn-primary btn-fill">Login as Member</a>
+                        <a v-link="{ name: 'login' }" class="btn btn-primary btn-fill">Login as Member</a>
                     </li>
                 </ul>
             </div>
@@ -68,7 +68,7 @@
                     </div>
 
                     <div class="button-get-started">
-                        <a href="#"  class="btn btn-white btn-fill btn-lg ">
+                        <a v-link="{ name: 'explore' }"  class="btn btn-white btn-fill btn-lg ">
                           Explore
                         </a>
                     </div>
@@ -77,7 +77,6 @@
             </div>
         </div>
     </div>
-
 
     <div class="section">
         <div class="container">
@@ -146,7 +145,7 @@
                                                     <img alt="..." class="img-circle" src="../../../assets/images/faces/face_1.jpg"/>
                                                 </div>
                                                 <div class="description">
-                                                    <h3 class="title">Tina</h3>
+                                                    <h3 class="title">Kesa Jeane</h3>
                                                     <p class="small-text">CEO / Co-Founder</p>
                                                     <p class="description">Bring a suitcase, a map and a camera. We could do this all day. Lets go to somewhere else in the world where no one could find us.</p>
                                                 </div>
@@ -160,7 +159,7 @@
                                                     <img alt="..." class="img-circle" src="../../../assets/images/faces/face_2.jpg"/>
                                                 </div>
                                                 <div class="description">
-                                                    <h3 class="title">Andrew</h3>
+                                                    <h3 class="title">Ean Smotherhald</h3>
                                                     <p class="small-text">Business & Finance Manager</p>
                                                     <p class="description">Money can fill your pockets, but travels can fill your soul.</p>
                                                 </div>
@@ -174,7 +173,7 @@
                                                     <img alt="..." class="img-circle" src="../../../assets/images/faces/face_3.jpg"/>
                                                 </div>
                                                 <div class="description">
-                                                    <h3 class="title">Michelle</h3>
+                                                    <h3 class="title">Michelle Lang</h3>
                                                     <p class="small-text">Analyst</p>
                                                     <p class="description">I like to stay in a new place for a month, just to experience the place as if I live there.</p>
                                                 </div>
@@ -240,13 +239,7 @@
                                     <a href="#">Contact Us</a>
                                 </li>
                                 <li>
-                                    <a href="#">How it works</a>
-                                </li>
-                                <li>
                                     <a href="#">Terms &amp; Conditions</a>
-                                </li>
-                                <li>
-                                    <a href="#">Company Policy</a>
                                 </li>
                                 <li>
                                     <a href="#">Money Back</a>

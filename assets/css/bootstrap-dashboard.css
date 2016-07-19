@@ -1892,7 +1892,7 @@ body > .navbar-collapse[data-color="purple"]:after {
   color: #333333;
   font-weight: 300;
 }
-.card .avatar {
+.card .avatar-1 {
   width: 30px;
   height: 30px;
   overflow: hidden;
@@ -1999,7 +1999,33 @@ body > .navbar-collapse[data-color="purple"]:after {
 .card-price hr {
   margin: 5px 15px;
 }
+.card .price h4 {
+  font-family: "Raleway","Helvetica","Arial", sans-serif;
+}
 
+.card .content .price {
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  color: white;
+  border-radius: 50%;
+  width: 152px;
+  height: 152px;
+  margin: 50px auto;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+}
+.card .content .price h4 {
+  margin: 5px 0 0;
+  font-size: 36px;
+}
+.card .content .price h6 {
+  margin-top: 45px;
+  font-size: 16px;
+}
+.card .content .price .currency {
+  font-size: 22px;
+  font-weight: normal;
+}
 .card-plain {
   background-color: transparent;
   box-shadow: none;
